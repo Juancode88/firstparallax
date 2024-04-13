@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap");
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 17px;
+    font-family:'Tilt Neon',sans-serif ;
+    font-weight:400;
+    line-height: 29px;
+    color:#666;
+}
+.img-paral1, .img-paral2, .img-paral3, .img-paral4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img-paral1{
+    background-image: url("https://www.vitastudent.com/wp-content/uploads/2022/09/Leeds-City-Centre-Aerial-View-of-the-city-centre-at-dusk.jpg");
+    min-height: 100%;
+}
+.img-paral2{
+    background-image: url("https://a.cdn-hotels.com/gdcs/production1/d1452/d90c2399-5d23-4570-990f-08d13b2616f0.jpg");
+    min-height: 400px;
+}
+.img-paral3{
+    background-image: url("https://www.centreforcities.org/wp-content/uploads/2021/08/Southampton-tile.png");
+    min-height: 400px;
+}
+.img-paral4{
+    background-image: url("https://news.liverpool.ac.uk/wp-content/uploads/2018/06/LiverpoolCityRegion-1w.jpg");
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color:#FADAA6;
+    color:#000;
+
+}
+.section-dark{
+    background-color: #232322;
+    color:#E9E9E4;
+}
+.ptext{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext h1{
+    line-height: 1;
+}
+.ptext .border{
+    background-color: #756868;
+    color: #000 ;
+    padding:20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+}
+@media(max-width:586px){
+    .img-paral1, .img-paral2, .img-paral3, .img-paral4{
+        background-attachment: scroll;
+    }
+}
